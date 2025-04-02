@@ -76,3 +76,7 @@ and then:
 ```
 
 The exclamation symbol "!" is used to run OS commands directly.
+
+## Examples
+
+The JetBot image includes several examples. These contain explanations of themselves and are well-guided. Our interest is in using this JetBot concept in Platooning, so we slightly modified the Road Following code (source files can be found in the [Jetbot_road_following](https://github.com/FranciscaDB/Jetbot_ROS/tree/main/JetBot%20with%20Jetson%20Nano/Jetbot_road_following) folder) to include communication between JetBots, thus controlling only one instead of each one.
