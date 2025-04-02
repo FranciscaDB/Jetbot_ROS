@@ -25,3 +25,16 @@ This guide is based on the [JetBot Website](https://jetbot.org/master/index.html
 |     M3 nut     |   1    |   [Amazon CA - M3 Hex Nuts](https://www.amazon.ca/binifiMux-M1-6-Stainless-Steel-200pcs/dp/B08N68W9SP/ref=sr_1_5?crid=3SE8I2UH1THEN&dib=eyJ2IjoiMSJ9.IstEAi8WHE2btXH3XCWhRfrPiRPdpQEgCoP8RonQg_FzoSJVulxBkhFgLZz28pcqopXdy2m0zVVgUTUUsYPtXlxRRgLazsTEqto56TkPVJLZxQbvlYhyRLMwqaYkgs666TC-p4NZkoIP3q4vsiKSTdrx4LfGEnTqWiJ461zrrM8aw6SJmf1rTp023aBkNSvopY3VyNhNN8BFsjgDV1G2uX6z8rs2UY6tp_UAj3sRIjvCki_BX-sw4NpJxkl0MbDvmmBT2EqzwdExrkwyFiVI5e4fVcRwFO-eIFRKOVms65US9Njj0FrhsH9Ax2hmGeCUBlZO5HZmX045IUSm6t8BWT57uYIsCOXKXGm0yMzc9B-Iek_cA97fW4iqo7sb3RNMlpsHkScNl64XRLAwDVxx3hq7b5bVlM4NV2oTrbnPniFbAlsEH89fyS928kYvqj7e.vR-vssWOJBhMUr8nAgQx42LeFyH5iDivjtwlQ8unQcg&dib_tag=se&keywords=binifiMux%2B150%2Bpcs%2BM3%2BHex%2BNuts%2C%2B3mm&qid=1738263510&sprefix=binifimux%2B150%2Bpcs%2Bm3%2Bhex%2Bnuts%2C%2B3mm%2Caps%2C66&sr=8-5&th=1)     |           |
 |       Jumper wires    |   1    |      [Amazon CA - Female to Female Breadboard Jumper Wire 2.54mm](https://www.amazon.ca/uxcell%C2%AE-Female-Jumper-2-54mm-Breadboard/dp/B07G39X4V2/ref=sr_1_43?crid=3PKQ1OSNUOBSE&dib=eyJ2IjoiMSJ9.5THepW3B5iU2lEMgOGjRpITHdFrb1PTraXrHGG6CiSWLtSnN98AdWH3MU7I4Le6c8LXBQ8T0TIWJhJICALke304Yf-7xdbmvqVVh_xazSSqz_j52T0Dyn3KyKkhpKmEfgXD_7p_bobtv-G2um6at8WEmEfZgV-ogd6PJnY2MBhDdsaUjR49Zoj1ayGo9_Z6DIsx2Njs6FVWU0DXMxxgYiFdjoqxwJDFwaVZdPaAmwyzV6x5W4fESC18essotWnzxC0vOwe5uuzpqzL-giEGuZ0KDjWB6whiP4t1yUYbY-qKoNJfj-g1rJRpCC_dY-okGwVeX2YsGOoyeLT0Xkj-hlNIVOH8pesuC64BmfBXHt4JGgJBreBEYjSbQpGN2LbC5I7jgm2UtZJVhISOrr6PYfwBxUU_MforPHkXp_DtchC0ZbkPa-t_1wUO7aQ90JI_A.CbCltsOtnJXHKU_267bMRh8cYxgonG7XL85Hjem8pDo&dib_tag=se&keywords=Female%2Bto%2BFemale%2BJumper%2BWires%2B(4%2BInch)&qid=1738263668&sprefix=female%2Bto%2Bfemale%2Bjumper%2Bwires%2B4%2Binch%2B%2Caps%2C63&sr=8-43&th=1)        |  Female-female, ~20cm  |
 
+## Hardware Setup
+
+For the hardware setup, we follow: [JetBot Website - Hardware Setup](https://jetbot.org/master/hardware_setup.html). In the [3D Printing Files](./3D Printing Files/) folder, you will find the .stl files for the 3D printing of the various JetBot parts. Additionally, there is an image with more details about the printing setup.
+
+Some tips for the hardware setup:
+
+1. Before assembling the JetBot, test each component by connecting it to the Jetson Nano with the correctly flashed SD card. This way, you can ensure that the different components are working before securing them.
+2. Try to clean each hole well where the screws will go. Try screwing them in by themselves first before adding the components to make it easier later.
+3. If a screw doesn't go all the way in, you can use a nut to keep the component from being loose.
+4. For the OLED display, we took out the head of the female jumper and soldered it to the pins of the 2x3 PiOLED header to make them female, so they would fit into the 6 pins of the pin header on the Jetson Nano Dev Kit.
+5. After soldering or connecting any cable, check with a multimeter for continuity where it should be, and make sure there is NO continuity where it shouldn't be.
+6. To connect the CSI camera, you must "unlock" the connector's latch! It's not as simple as just plugging it in. Be careful with this.
+
