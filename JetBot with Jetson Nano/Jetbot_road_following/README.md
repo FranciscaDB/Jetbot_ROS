@@ -21,3 +21,6 @@ In short, the idea is to execute a flow of code:
 Platooning_Leader.ipynb runs on the jetbot that will be controlled through the GUI, while Platooning_NX.ipynb, with X = jetbot number, will be executed on the jetbot that will receive inputs via MQTT.
 
 ## How to configure the parameters in Platooning_*.ipynb
+
+es necesario configurar el broker de MQTT
+IP de cada dispositivo
