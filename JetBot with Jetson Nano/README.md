@@ -27,7 +27,7 @@ This guide is based on the [JetBot Website](https://jetbot.org/master/index.html
 
 ## Hardware Setup
 
-For the hardware setup, we follow: [JetBot Website - Hardware Setup](https://jetbot.org/master/hardware_setup.html). In the [3D Printing Files](./3D Printing Files/) folder, you will find the .stl files for the 3D printing of the various JetBot parts. Additionally, there is an image with more details about the printing setup.
+For the hardware setup, we follow: [JetBot Website - Hardware Setup](https://jetbot.org/master/hardware_setup.html). In the [3D Printing Files](https://github.com/FranciscaDB/Jetbot_ROS/tree/main/JetBot%20with%20Jetson%20Nano/3D%20Printing%20Files) folder, you will find the .stl files for the 3D printing of the various JetBot parts. Additionally, there is an image with more details about the printing setup.
 
 Some tips for the hardware setup:
 
