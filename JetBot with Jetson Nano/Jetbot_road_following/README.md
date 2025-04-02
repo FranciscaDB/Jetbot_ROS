@@ -23,4 +23,5 @@ Platooning_Leader.ipynb runs on the jetbot that will be controlled through the G
 ## How to configure the parameters in Platooning_*.ipynb
 
 es necesario configurar el broker de MQTT
+
 IP de cada dispositivo
