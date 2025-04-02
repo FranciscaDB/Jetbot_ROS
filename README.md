@@ -1,9 +1,9 @@
-## Jetbot_ROS
+# Jetbot_ROS
 
 Differential wheeled robot based on Jetson Orin Nano Dev kit.
 
 
-# login into eduroam wifi network via terminal: 
+## login into eduroam wifi network via terminal: 
 install wpa_supplicant:
 ```
 pip install wpa_supplicant
