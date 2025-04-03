@@ -22,6 +22,27 @@ Platooning_Leader.ipynb runs on the jetbot that will be controlled through the G
 
 ## How to configure the parameters in Platooning_*.ipynb
 
-es necesario configurar el broker de MQTT
+Both codes have a section called "MQTT configuration." There, the **MQTT Broker** and the **MQTT Topic** should be added and be the same. It is necessary to install the paho-mqtt package beforehand to use this functionality. Additionally, it is necessary to have a device running the Mosquitto server. This can be a JetBot or a computer with Ubuntu (connected to the same local network), and the IP of this will be use in **MQTT Broker**.
 
-IP de cada dispositivo
+To install Mosquitto service:
+```bash
+sudo apt update
+sudo apt install mosquitto mosquitto-clients
+```
+
+Start the Mosquitto service manually (before run any code Platooning_*.ipynb):
+```bash
+sudo systemctl start mosquitto
+```
+
+Optionally, enable the automatic start of the service at boot.
+```bash
+sudo systemctl enable mosquitto
+```
+
+Verify that the service is running:
+```bash
+sudo systemctl status mosquitto
+```
+
+This should be executed in the terminal. If it's a JetBot, it should be run via Serial (e.g., PuTTY) or by SSH using SSH user@IP.
