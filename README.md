@@ -2,6 +2,10 @@
 
 Differential wheeled robot based on Jetson Orin Nano Dev kit.
 
+## how to set the jetpack
+
+## Install ROS 2 foxy
+
 
 ## login into eduroam wifi network via terminal: 
 install wpa_supplicant:
