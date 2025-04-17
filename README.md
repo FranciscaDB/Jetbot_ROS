@@ -6,6 +6,7 @@ Differential wheeled robot based on Jetson Orin Nano Dev kit.
 
 ## Install ROS 2 foxy
 
+https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html
 
 ## login into eduroam wifi network via terminal: 
 ```
