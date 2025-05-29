@@ -24,3 +24,21 @@ cd ..
 pip install .
 jupyter lab build
 ```
+
+Connections:
+| Jetson Orin Nano | Motor Driver | Encoder 1 | Encoder 2 |
+|------------------|--------------|-----------|-----------|
+| 1                | 3V3          |           |           |
+| 2                |              | VCC       |           |
+| 3                | SDA          |           |           |
+| 4                |              |           | VCC       |
+| 5                | SCL          |           |           |
+| 6                | GND          |           |           |
+| 9                |              |           | GND       |
+| 11               |              |           | C1        |
+| 12               |              |           | C2        |
+| 14               |              | GND       |           |
+| 15               |              | C1        |           |
+| 16               |              | C2        |           |
+|                  | M1           | M1-M2     |           |
+|                  | M2           |           | M1-M2     |
