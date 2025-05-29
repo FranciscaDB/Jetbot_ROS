@@ -8,7 +8,7 @@ Differential wheeled robot based on Jetson Orin Nano Dev kit.
 
 https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html
 
-## How to set up Jupyter Lab 4 an d jupyteer_clickable_image_widget (neccesary for collect data script)
+## How to set up Jupyter Lab 4 and jupyter_clickable_image_widget (neccesary for collect data script)
 ```
 pip install jupyterlab==4.0.10 ipywidgets
 curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
