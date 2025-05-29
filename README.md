@@ -43,6 +43,7 @@ Connections:
 |                  | M1           | M1-M2     |           |
 |                  | M2           |           | M1-M2     |
 
-![Motor_driver](image.png)
+<img src="image.png" alt="motor_driver" height="200"/>
+
 
 
