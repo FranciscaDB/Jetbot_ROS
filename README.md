@@ -42,3 +42,7 @@ Connections:
 | 16               |              | C2        |           |
 |                  | M1           | M1-M2     |           |
 |                  | M2           |           | M1-M2     |
+
+![Motor_driver](image.png)
+
+
