@@ -26,7 +26,7 @@ jupyter lab build
 ```
 
 Connections:
-| Jetson Orin Nano | Motor Driver | Encoder R | Encoder L |
+| Jetson Orin Nano | Motor Driver | Encoder L | Encoder R |
 |------------------|--------------|-----------|-----------|
 | 1                | 3V3          |           |           |
 | 2                |              | VCC       |           |
