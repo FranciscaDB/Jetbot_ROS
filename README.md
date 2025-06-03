@@ -26,47 +26,30 @@ jupyter lab build
 ```
 
 Connections:
-<div style="display: flex; align-items: flex-start;">
 
-<!-- Tabla a la izquierda -->
-<div style="flex: 1;">
-  <strong>Connections:</strong>  
-  <table>
-    <thead>
-      <tr>
-        <th>Jetson Orin Nano</th>
-        <th>Motor Driver</th>
-        <th>Encoder L</th>
-        <th>Encoder R</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr><td>1</td><td>3V3</td><td></td><td></td></tr>
-      <tr><td>2</td><td></td><td>VCC</td><td></td></tr>
-      <tr><td>3</td><td>SDA</td><td></td><td></td></tr>
-      <tr><td>4</td><td></td><td></td><td>VCC</td></tr>
-      <tr><td>5</td><td>SCL</td><td></td><td></td></tr>
-      <tr><td>6</td><td>GND</td><td></td><td></td></tr>
-      <tr><td>9</td><td></td><td></td><td>GND</td></tr>
-      <tr><td>11</td><td></td><td></td><td>C1</td></tr>
-      <tr><td>12</td><td></td><td></td><td>C2</td></tr>
-      <tr><td>14</td><td></td><td>GND</td><td></td></tr>
-      <tr><td>15</td><td></td><td>C1</td><td></td></tr>
-      <tr><td>16</td><td></td><td>C2</td><td></td></tr>
-      <tr><td></td><td>M1</td><td>M1-M2</td><td></td></tr>
-      <tr><td></td><td>M2</td><td></td><td>M1-M2</td></tr>
-    </tbody>
-  </table>
-</div>
+| Jetson Orin Nano | Motor Driver | Encoder L | Encoder R |
+|------------------|--------------|-----------|-----------|
+| 1                | 3V3          |           |           |
+| 2                |              | VCC       |           |
+| 3                | SDA          |           |           |
+| 4                |              |           | VCC       |
+| 5                | SCL          |           |           |
+| 6                | GND          |           |           |
+| 9                |              |           | GND       |
+| 11               |              |           | C1        |
+| 12               |              |           | C2        |
+| 14               |              | GND       |           |
+| 15               |              | C1        |           |
+| 16               |              | C2        |           |
+|                  | M1           | M1-M2     |           |
+|                  | M2           |           | M1-M2     |
 
-<!-- Imágenes a la derecha -->
-<div style="flex: 1; padding-left: 20px;">
-  <img src="driver.png" alt="Imagen 1" width="200"><br>
-  <img src="encoder.jpg" alt="Imagen 2" width="200"><br>
-  <img src="pins_orin.png" alt="Imagen 3" width="200">
-</div>
+Imágenes de conexión:
 
-</div>
+![Driver](driver.png)
+![Encoders](encoder.jpg)
+![Orin Pins](pins_orin.png)
+
 
 
 
