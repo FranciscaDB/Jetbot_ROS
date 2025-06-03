@@ -27,9 +27,9 @@ jupyter lab build
 
 Connections:
 <p align="center">
+<img src="pins_orin.png" width="300">
 <img src="encoder.jpg" width="300">
 <img src="driver.png" width="300">
-<img src="pins_orin.png" width="300">
 </p>
 
 | Jetson Orin Nano | Motor Driver | Encoder L | Encoder R |
