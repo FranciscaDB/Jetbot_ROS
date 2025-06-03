@@ -25,7 +25,8 @@ pip install .
 jupyter lab build
 ```
 
-Connections:
+## Connections:
+
 <p align="center">
 <img src="pins_orin.png" width="300">
 <img src="encoder.jpg" width="300">
