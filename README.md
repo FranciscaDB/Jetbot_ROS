@@ -44,12 +44,9 @@ Connections:
 |                  | M1           | M1-M2     |           |
 |                  | M2           |           | M1-M2     |
 
-Imágenes de conexión:
-
-![Driver](driver.png)
-![Encoders](encoder.jpg)
-![Orin Pins](pins_orin.png)
-
+<img src="encoder.jpg" width="300">
+<img src="driver.png" width="300">
+<img src="pins_orin.png" width="300">
 
 
 
